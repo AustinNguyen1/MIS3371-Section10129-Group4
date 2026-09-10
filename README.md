@@ -1,2 +1,27 @@
-# MarketStreet
-A simulated stock trading platform for buying and selling stocks, tracking portfolios, and managing transaction history.
+# Market Street
+
+AfterHours is a simulated stock trading application that allows users to place and track paper-trading transactions without using real money.
+
+## Project Scenario
+
+Many beginner investors want to practice trading and understand how stock transactions work without risking real money. AfterHours provides a simplified environment where users can submit simulated stock trades and track the resulting transaction status.
+
+## Main Transaction
+
+The primary transaction is:
+
+**A user submits a stock trade order.**
+
+The system validates the transaction, applies applicable business rules, records the trade request, and returns a transaction status.
+
+## Project Purpose
+
+The purpose of this project is to demonstrate the complete processing of a stock trading transaction from user input through validation, business rules, system processing, and record creation.
+
+## Team Members
+
+- Austin Nguyen
+- Sophia Musetti
+- Arya Nair
+- Benjamin Nguyen
+- Shayaan M Dawra
