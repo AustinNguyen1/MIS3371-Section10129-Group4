@@ -2,36 +2,47 @@
 
 ## Business Problem
 
-People who are learning about stock trading may want to practice buying and selling stocks without risking real money. Existing trading platforms often involve real financial accounts or include features that can make the process more complicated for a beginner.
+Many beginner investors want to learn how stock trading works but may not feel comfortable risking real money while they are still learning. Real trading platforms can also include advanced features that make it difficult for new investors to understand the basic process of buying and selling stocks.
 
-Our system will provide a simple simulated stock trading environment where a user can create an account, receive a fictional starting balance, and practice buying and selling stocks. Stock prices can come from a stock market API or simulated price data. The system will track the user's balance, stock holdings, and transaction history after each trade.
+Market Street addresses this problem by providing a simulated stock trading environment where users can practice submitting stock trade orders without using real money. The system allows users to interact with simulated or API-provided stock prices, submit buy or sell orders, and track the results of their transactions.
 
 ## Why It Matters
 
-- Gives users a risk-free way to understand basic stock transactions.
-- Shows how buying and selling affects a user's available balance.
-- Allows users to keep track of the stocks they currently own.
-- Creates a clear record of completed transactions.
-- Demonstrates how business rules determine whether a transaction can be completed.
+Market Street gives users a simple and risk-free way to understand how a basic stock transaction works. Users can see how a trade moves from user input through validation, business rules, system processing, and transaction recording.
+
+The project also demonstrates how an information system can validate a transaction before allowing it to be completed.
 
 ## In Scope
 
-- Create or access a simulated trading account.
-- Begin with a fictional account balance.
-- Search/select a stock ticker.
-- View the stock's current simulated or API-provided price.
-- Submit a buy or sell transaction.
-- Enter the number of shares being traded.
-- Verify sufficient funds before a purchase.
-- Verify sufficient shares before a sale.
-- Update the user's balance and holdings after a successful trade.
-- Record completed trades in transaction history.
+Market Street will allow users to:
+
+- Access a simulated stock trading account.
+- View a fictional account balance.
+- Select or search for a stock ticker.
+- View a simulated or API-provided stock price.
+- Submit a buy or sell stock trade order.
+- Enter the number of shares they want to trade.
+- Validate whether the transaction meets the required business rules.
+- Verify that the user has enough available funds before completing a purchase.
+- Verify that the user owns enough shares before completing a sale.
+- Record the trade and return a transaction status.
+- Update the user's simulated balance and stock holdings after a successful trade.
+- View previously completed transactions.
 
 ## Out of Scope
 
+Market Street will not include:
+
 - Real-money investing.
-- Brokerage or bank account integration.
-- Actual stock ownership or transfers.
+- Connections to real bank accounts or brokerage accounts.
+- Actual purchase or ownership of securities.
+- Deposits or withdrawals of real money.
+- Margin trading.
+- Short selling.
+- Options trading.
+- Cryptocurrency trading.
+- Financial advice or stock recommendations.
+- Advanced investment forecasting or portfolio analysis.
 - Options trading.
 - Margin trading.
 - Short selling.
