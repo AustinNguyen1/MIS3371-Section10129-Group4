@@ -4,7 +4,7 @@ Market Street is a simulated stock trading application that allows users to plac
 
 ## Project Scenario
 
-Many beginner investors want to practice trading and understand how stock transactions work without risking real money. AfterHours provides a simplified environment where users can submit simulated stock trades and track the resulting transaction status.
+Many beginner investors want to practice trading and understand how stock transactions work without risking real money. MarketStreet provides a simplified environment where users can submit simulated stock trades and track the resulting transaction status.
 
 ## Main Transaction
 
@@ -25,3 +25,4 @@ The purpose of this project is to demonstrate the complete processing of a stock
 - Arya Nair
 - Benjamin Nguyen
 - Shayaan M Dawra
+- Agah Dunzenli
