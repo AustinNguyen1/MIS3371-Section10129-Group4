@@ -43,9 +43,3 @@ Market Street will not include:
 - Cryptocurrency trading.
 - Financial advice or stock recommendations.
 - Advanced investment forecasting or portfolio analysis.
-- Options trading.
-- Margin trading.
-- Short selling.
-- Cryptocurrency trading.
-- Financial advice or stock recommendations.
-- Advanced portfolio analytics or forecasting.
