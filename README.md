@@ -10,7 +10,7 @@ Many beginner investors want to practice trading and understand how stock transa
 
 The primary transaction is:
 
-**A user submits a stock trade order.**
+**A user submits a simulated stock trade order.**
 
 The system validates the transaction, applies applicable business rules, records the trade request, and returns a transaction status.
 
