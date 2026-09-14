@@ -1,7 +1,7 @@
 # Main Transaction
 
 ## TRANSACTION EVENT
-#### User submits a stock trade.
+#### User submits a simulated stock trade.
 
 - ### TRIGGER
 User wants to buy or sell a stock through MarketStreet.
