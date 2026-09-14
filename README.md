@@ -25,4 +25,4 @@ The purpose of this project is to demonstrate the complete processing of a stock
 - Arya Nair
 - Benjamin Nguyen
 - Shayaan M Dawra
-- Agah Dunzenli
+- Agah Duzenli
