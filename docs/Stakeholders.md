@@ -1,4 +1,4 @@
-# Market Street — Stakeholders
+# MarketStreet — Stakeholders
 
 The following stakeholders are involved in or affected by the simulated stock-trading transaction.
 
