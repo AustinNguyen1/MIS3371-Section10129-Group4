@@ -1,6 +1,6 @@
-# Market Street
+# MarketStreet
 
-Market Street is a simulated stock trading application that allows users to place and track paper-trading transactions without using real money.
+MarketStreet is a simulated stock trading application that allows users to place and track paper-trading transactions without using real money.
 
 ## Project Scenario
 
