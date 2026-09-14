@@ -1,20 +1,20 @@
-# Market Street- Business Problem + Scope
+# MarketStreet- Business Problem + Scope
 
 ## Business Problem
 
 Many beginner investors want to learn how stock trading works but may not feel comfortable risking real money while they are still learning. Real trading platforms can also include advanced features that make it difficult for new investors to understand the basic process of buying and selling stocks.
 
-Market Street addresses this problem by providing a simulated stock trading environment where users can practice submitting stock trade orders without using real money. The system allows users to interact with simulated or API-provided stock prices, submit buy or sell orders, and track the results of their transactions.
+MarketStreet addresses this problem by providing a simulated stock trading environment where users can practice submitting stock trade orders without using real money. The system allows users to interact with simulated or API-provided stock prices, submit buy or sell orders, and track the results of their transactions.
 
 ## Why It Matters
 
-Market Street gives users a simple and risk-free way to understand how a basic stock transaction works. Users can see how a trade moves from user input through validation, business rules, system processing, and transaction recording.
+MarketStreet gives users a simple and risk-free way to understand how a basic stock transaction works. Users can see how a trade moves from user input through validation, business rules, system processing, and transaction recording.
 
 The project also demonstrates how an information system can validate a transaction before allowing it to be completed.
 
 ## In Scope
 
-Market Street will allow users to:
+MarketStreet will allow users to:
 
 - Access a simulated stock trading account.
 - View a fictional account balance.
@@ -31,7 +31,7 @@ Market Street will allow users to:
 
 ## Out of Scope
 
-Market Street will not include:
+MarketStreet will not include:
 
 - Real-money investing.
 - Connections to real bank accounts or brokerage accounts.
