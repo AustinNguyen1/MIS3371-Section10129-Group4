@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 - Form-Label</title>
+</head>
+<body>
+    <section>
+        <h2>Login Form</h2>
+        <form method="post" action="/login">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <form method="post" action="/submit">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" name="password" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <fieldset>
+        <legend>Transaction Details</legend>
+        <label for="transaction-type">Transaction Type:</label>
+        <select id="transaction-type">
+            <option value="buy">Buy</option>
+            <option value="sell">Sell</option>
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="1">
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" step="0.01">
+    </fieldset>
+
+</body>
+</html>
