@@ -1,4 +1,7 @@
-# Short responsibility notes #
+# Short Responsibility Notes #
+
+## Week3- Individual and Group exercise pack ##
+
 1. Transaction workflow diagram
 
 Sophia Musetti
