@@ -46,3 +46,5 @@ When a Sell order is accepted, the number of shares owned decreases and the user
 ### BR-8 — Rejected Trades Must Not Change the Portfolio
 
 If a transaction is rejected, the user's simulated cash balance and stock holdings must remain unchanged. The system should provide a clear reason for the rejection.
+
+If the cash and holdings update fails after a trade has passed validation, the update is rolled back so the user's cash balance and holdings return to their previous values, and the transaction is rejected with a reason.

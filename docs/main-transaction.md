@@ -42,4 +42,12 @@ records the total simulated value of the trade
 records the time of when the trade happened
 
 **Status:**  
-records whether the trade was successfully accepted or rejected
+records where the trade is in processing: Submitted when the order is received, Validated when it passes all business rules, and Accepted or Rejected when it finishes (Accepted and Rejected are final)
+
+# NOTES
+
+**Input caught in the browser:**  
+If the user interface finds a missing field or non-numeric quantity, it blocks submission and the user corrects the form. No transaction is created, so nothing is recorded.
+
+**Input caught by the application:**  
+Once the application receives an order, it assigns a transaction ID. Any order that then fails a business rule is saved as Rejected with a reason, and the user's cash and holdings stay unchanged.
