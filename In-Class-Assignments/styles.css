@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  color: #234a7a;
+}
+
+main {
+  background-color: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #234a7a;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}
