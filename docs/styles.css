@@ -1,0 +1,133 @@
+/* Page setup */
+body 
+{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #1f2933;
+}
+
+/* Header */
+header 
+{
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #1f3a5f;
+  color: white;
+}
+
+header h1 
+{
+  margin-bottom: 8px;
+}
+
+/* Main page container */
+main 
+{
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Each section */
+section 
+{
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+/* Section headings */
+h2 
+{
+  margin-top: 0;
+  color: #1f3a5f;
+}
+
+/* Form layout */
+form 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Labels */
+label 
+{
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* Form fields */
+input,
+select,
+textarea 
+{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #b8c2cc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Visible keyboard focus */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus 
+{
+  outline: 3px solid #7aa7d9;
+  outline-offset: 2px;
+}
+
+/* Buttons */
+button 
+{
+  margin-top: 12px;
+  padding: 10px 18px;
+  font-size: 16px;
+  background-color: #1f3a5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover 
+{
+  background-color: #2f5682;
+}
+
+/* Footer */
+footer 
+{
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #5f6c7b;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) 
+{
+  main {
+    margin: 15px auto;
+    padding: 0 12px;
+  }
+
+  section {
+    padding: 18px;
+  }
+
+  header {
+    padding: 20px 15px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
