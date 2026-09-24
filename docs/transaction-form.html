@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Helps the page display properly on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Appears in the browser tab -->
+    <title>MarketStreet</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!--
+    <header> = introductory area of the page.
+    It communicates the purpose of the page.
+  -->
+    <header>
+      <h1>MarketStreet</h1>
+      <p>Explore the market without risk.</p>
+    </header>
+
+    <main>
+
+      <section>
+        <h2>Login</h2>
+        <form>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Username" required />
+
+       <label for="password">Password</label>
+       <input type="password" id="password" name="password" placeholder="Password" required />
+
+       <button type="submit">Sign In</button>
+       </form>
+        <p>Please have your username and password ready.</p>
+      </section>
+      <section>
+  <h2>Stock Trade Order</h2>
+
+  <form>
+    <label for="symbol">Stock Symbol</label>
+    <input
+      type="text"
+      id="symbol"
+      name="symbol"
+      placeholder="Example: AAPL"
+      required
+    />
+
+    <label for="order-type">Order Type</label>
+    <select id="order-type" name="order-type" required>
+      <option value="">Select order type</option>
+      <option value="buy">Buy</option>
+      <option value="sell">Sell</option>
+    </select>
+
+    <label for="quantity">Quantity</label>
+    <input
+      type="number"
+      id="quantity"
+      name="quantity"
+      min="1"
+      step="1"
+      placeholder="Enter number of shares"
+      required
+    />
+
+    <button type="submit">Submit Order</button>
+  </form>
+</section>
+
+    
+      <section>
+        <h2>About MarketStreet</h2>
+
+        <p>
+          MarketStreet is a simulated stock trading application that allows
+          users to place and track paper-trading transactions without using real
+          money. 
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>COPYRIGHT © 2026 MarketStreet. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
